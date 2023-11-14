@@ -13,9 +13,17 @@ header {
     align-items: center;
 }
 
-.logo img {
-    height: 50px;
-}
+.logo {
+    text-align: center; /* Pusatkan logo */
+  }
+  
+  .logo img {
+    max-width: 60%; /* Agar logo tidak melebihi lebar parent element */
+    height: auto; /* Biarkan tinggi mengikuti proporsi asli untuk mencegah distorsi */
+    display: block; /* Hilangkan space tambahan di bagian bawah gambar */
+    margin: 0 auto; /* Pusatkan gambar secara horizontal */
+  }
+  
 
 nav ul {
     list-style: none;
@@ -56,4 +64,7 @@ nav ul li a:hover::after {
     width: 100%;
     background-color: #fff;
 }
+
+/* konten */
+
 
