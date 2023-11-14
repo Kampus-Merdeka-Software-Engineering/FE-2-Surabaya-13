@@ -35,6 +35,25 @@ nav ul li a {
 }
 
 /* Hover effect */
-nav ul li a:hover {
-    border-bottom: 2px solid #fff;
+nav ul li a {
+    position: relative;
+    text-decoration: none;
+    color: #000; 
 }
+
+nav ul li a::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: #000;
+    transition: width 0.3s ease-in-out;
+}
+
+nav ul li a:hover::after {
+    width: 100%;
+    background-color: #fff;
+}
+
