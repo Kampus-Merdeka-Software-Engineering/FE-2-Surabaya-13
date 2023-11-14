@@ -5,7 +5,7 @@ body {
 }
 
 header {
-    background-color: #333;
+    background-color: #E4E4EC;
     color: #fff;
     padding: 10px 20px;
     display: flex;
@@ -30,7 +30,7 @@ nav ul li {
 
 nav ul li a {
     text-decoration: none;
-    color: #fff;
+    color: #000000;
     font-weight: bold;
 }
 
