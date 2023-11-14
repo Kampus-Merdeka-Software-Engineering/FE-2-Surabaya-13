@@ -66,5 +66,21 @@ nav ul li a:hover::after {
 }
 
 /* konten */
+.container {
+    text-align: justify;
+  }
+  
+  .image-container,
+  .description {
+    display: inline-block;
+    vertical-align: top;
+    width: 48%; 
+  }
+  
+  .image-container {
+    margin-right: 2%;
+  }
+  
 
-
+  /* footer */
+  
