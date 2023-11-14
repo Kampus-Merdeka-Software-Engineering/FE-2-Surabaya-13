@@ -78,20 +78,64 @@ nav ul li a:hover::after {
 
 /* konten */
 .container {
-    text-align: justify;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.image-container {
+  flex: 1;
+  margin-right: 40px;
+}
+
+.image {
+  max-width: 100%;
+  height: auto;
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 12px;
+}
+
+p {
+  font-size: 16px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.description {
+  flex: 2;
+}
+
+.description-1 {
+  flex: 2;
+  margin-top: 50px;
+  font-weight: bold;
+}
+
+.description-2 {
+  flex: 2;
+  margin-top: 50px;
+  font-weight: bold;
+}
+
+.description-2 p {
+  font-size: 30px;
+}
+
+/* Tambahan styling untuk tampilan responsif */
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
   }
-  
-  .image-container,
-  .description {
-    display: inline-block;
-    vertical-align: top;
-    width: 48%; 
-  }
-  
+
   .image-container {
-    margin-right: 2%;
+    margin-right: 0;
+    margin-bottom: 20px;
   }
-  
+}
+
 
   /* footer */
 footer{
