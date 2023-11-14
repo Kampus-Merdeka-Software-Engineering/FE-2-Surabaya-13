@@ -14,14 +14,14 @@ header {
 }
 
 .logo {
-    text-align: center; /* Pusatkan logo */
+    text-align: center;
   }
   
   .logo img {
-    max-width: 60%; /* Agar logo tidak melebihi lebar parent element */
-    height: auto; /* Biarkan tinggi mengikuti proporsi asli untuk mencegah distorsi */
-    display: block; /* Hilangkan space tambahan di bagian bawah gambar */
-    margin: 0 auto; /* Pusatkan gambar secara horizontal */
+    max-width: 60%;
+    height: auto;
+    display: block;
+    margin: 0 auto; 
   }
   
 
