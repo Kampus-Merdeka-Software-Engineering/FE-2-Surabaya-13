@@ -153,6 +153,7 @@ input[type="checkbox"]{
     display: flex;
     align-items: center;
     justify-content: space-around;
+    flex-wrap: wrap;
   }
   .text{
     width: 540px;
@@ -178,7 +179,7 @@ input[type="checkbox"]{
   .data{
     margin-top: 30px;
   }
-  .hire{
+  .ContactUs{
     font-size: 18px;
     background: #000;
     color: #fff;
@@ -188,9 +189,40 @@ input[type="checkbox"]{
     border-radius: 6px;
     transition: 0.5s;
   }
-  .hire:hover{
+  .ContactUs:hover{
     background: #000;
     border: 1px solid #4070f4;
+  }
+
+  @media (max-width: 768px) {
+    .about {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+  
+    .text {
+      width: 100%;
+      margin-top: 20px;
+  }
+  
+    .pic {
+      width: 100%;
+  }
+  
+    .content {
+      padding: 0 20px;
+    }
+  }
+  
+  @media (max-width: 600px) {
+    .footer-col {
+      width: 100%;
+    }
+  
+    footer {
+      padding: 30px 5%;
+    }
   }
 
 /* footer */
@@ -200,6 +232,8 @@ footer {
     margin-top: auto;
     background-color: #E4E4EC;
     padding: 60px 10%;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 ul {
@@ -218,6 +252,7 @@ ul {
     font-weight: 400;
     font-size: 18px;
     color: #000000;
+    font: bold;
     text-transform: capitalize;
 }
 
