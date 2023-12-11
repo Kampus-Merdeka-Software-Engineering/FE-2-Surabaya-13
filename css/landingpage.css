@@ -374,6 +374,10 @@ input[type="checkbox"] {
     color: goldenrod;
 }
 
+.hotel__ratings {
+    color: goldenrod;
+}
+
 .find {
     padding-top: 5rem;
     background-color: #F7F8FC;
@@ -454,6 +458,11 @@ input[type="checkbox"] {
 .card-carosel .price {
     font-size: 1rem;
     font-weight: 800;
+    color: #fe5000;
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
 .card-carosel .per {
